@@ -20,6 +20,6 @@ if ( ! file_exists( $path_lib ) ) {
 	print( '/libraries/cck/rendering/rendering.php file is missing.' );
 	die;
 }
-
+/* rerrpoekroekprkepokper */
 require_once $path_lib;
 ?>
