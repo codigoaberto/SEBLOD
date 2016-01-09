@@ -487,7 +487,7 @@ Helper_Display::quickCopyright();
 		$("div#layers").on("click", "span.c_val", function() {
 			var field = $(this).attr("name");
 			var validation = $("#"+field+"_validation").val();
-			var url = "index.php?option=com_cck&task=box.add&tmpl=component&file=administrator/components/com_cck/helpers/scripts/validation.php&type=type&id="+field+"&name="+validation+"&validation=1";
+			var url = "index.php?option=com_cck&task=box.add&tmpl=component&file=components/com_cck/helpers/scripts/validation.php&type=type&id="+field+"&name="+validation+"&validation=1";
 			$.fn.colorbox({href:url, iframe:true, innerWidth:930, innerHeight:550, overlayClose:false, fixed:true, onLoad: function(){ $('#cboxClose').remove();}});
 		});
 		$("div#layers").on("change", "select.c_typo_ck", function() {

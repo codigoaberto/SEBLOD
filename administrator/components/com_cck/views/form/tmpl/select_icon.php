@@ -15,7 +15,7 @@ defined( '_JEXEC' ) or die;
 	<?php
     foreach ( $items as $item ) {
 		if ( $user->authorise( 'core.create', 'com_cck.form.'.$item->id ) ) {
-			$image	=	( $item->folder_icon ) ? $item->folder_icon : 'administrator/components/com_cck/assets/images/48/icon-48-form.png';
+			$image	=	( $item->folder_icon ) ? $item->folder_icon : 'components/com_cck/assets/images/48/icon-48-form.png';
 			$key	=	'APP_CCK_FORM_'.$item->name;
 			$lang->load( 'pkg_app_cck_'.$item->folder_app, JPATH_SITE, null, false, false );
 			$link	=	$base.'&type='.$item->name.$variables;

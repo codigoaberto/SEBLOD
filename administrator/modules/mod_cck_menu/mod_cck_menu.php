@@ -58,7 +58,7 @@ if ( JCck::on() ) {
 	$hide		=	$app->input->getBool( 'hidemainmenu' );
 	$document 	=	JFactory::getDocument();
 	$root		=	JURI::root( true );
-	$document->addStyleSheet( $root.'/administrator/modules/mod_cck_menu/assets/css/cck_menu.css' );
+	$document->addStyleSheet( 'modules/mod_cck_menu/assets/css/cck_menu.css' );
 
 	$moduleid	=	$module->id;
 	$mode		=	$params->get( 'mode', 2 );

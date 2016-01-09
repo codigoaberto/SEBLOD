@@ -57,7 +57,7 @@ if ( $legacy == 1 ) {
 JCck::loadjQuery();
 Helper_Include::addStyleSheets( true );
 if ( JCck::on() ) {
-	JHtml::_( 'stylesheet', 'administrator/components/com_cck/assets/css/cpanel.css', array(), false );
+	JHtml::_( 'stylesheet', 'components/com_cck/assets/css/cpanel.css', array(), false );
 }
 
 $doc	=	JFactory::getDocument();

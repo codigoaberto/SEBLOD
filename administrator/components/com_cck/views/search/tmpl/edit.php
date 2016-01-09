@@ -461,7 +461,7 @@ Helper_Display::quickCopyright();
 		$("div#layers").on("click", "span.c_live", function() {
 			var field = $(this).attr("name");
 			var cur = $("#"+field+"_live").val();
-			var url = "index.php?option=com_cck&task=box.add&tmpl=component&file=administrator/components/com_cck/views/field/tmpl/selection.php&title=search&name="+field+"&type="+field+"_live_value&id="+cur;
+			var url = "index.php?option=com_cck&task=box.add&tmpl=component&file=components/com_cck/views/field/tmpl/selection.php&title=search&name="+field+"&type="+field+"_live_value&id="+cur;
 			$.fn.colorbox({href:url, iframe:true, innerWidth:300, innerHeight:200, scrolling:false, overlayClose:false, fixed:true, onLoad: function(){ $('#cboxClose').remove();}});
 		});
 		$("div#layers").on("click", "span.c_live2", function() {
@@ -469,7 +469,7 @@ Helper_Display::quickCopyright();
 			var live = $("#"+field+"_live").val();
 			if (live) {
 				if (live == "stage") {
-					var url = "index.php?option=com_cck&task=box.add&tmpl=component&file=administrator/components/com_cck/helpers/scripts/stage.php&id="+field+"&validation=1";
+					var url = "index.php?option=com_cck&task=box.add&tmpl=component&file=components/com_cck/helpers/scripts/stage.php&id="+field+"&validation=1";
 				} else {
 					var url = "index.php?option=com_cck&task=box.add&tmpl=component&file=plugins/cck_field_live/"+live+"/tmpl/edit.php&id="+field+"&name="+live+"&validation=1";
 				}
@@ -503,7 +503,7 @@ Helper_Display::quickCopyright();
 		$("div#layers").on("click", "span.c_val", function() {
 			var field = $(this).attr("name");
 			var validation = $("#"+field+"_validation").val();
-			var url = "index.php?option=com_cck&task=box.add&tmpl=component&file=administrator/components/com_cck/helpers/scripts/validation.php&type=search&id="+field+"&name="+validation+"&validation=1";
+			var url = "index.php?option=com_cck&task=box.add&tmpl=component&file=components/com_cck/helpers/scripts/validation.php&type=search&id="+field+"&name="+validation+"&validation=1";
 			$.fn.colorbox({href:url, iframe:true, innerWidth:930, innerHeight:550, overlayClose:false, fixed:true, onLoad: function(){ $('#cboxClose').remove();}});
 		});
 		$("div#layers").on("change", "select.c_typo_ck", function() {

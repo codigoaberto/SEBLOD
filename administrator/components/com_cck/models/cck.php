@@ -107,7 +107,7 @@ class CCKModelCCK extends JModelLegacy
 		$files		=	$xml->addChild( 'files' );
 		$file1		=	$files->addChild( 'file', 'cck_'.$lang.'_admin.zip' );
 		$file1->addAttribute( 'type', 'file' );
-		$file1->addAttribute( 'src', 'administrator/language/'.$lang );
+		$file1->addAttribute( 'src', 'language/'.$lang );
 		$file1->addAttribute( 'id', 'cck_'.$lang.'_admin' );
 		$file2		=	$files->addChild( 'file', 'cck_'.$lang.'_site.zip' );
 		$file2->addAttribute( 'type', 'file' );

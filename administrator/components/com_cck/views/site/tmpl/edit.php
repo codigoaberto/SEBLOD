@@ -172,7 +172,7 @@ Helper_Display::quickCopyright();
         $("span.value-picker").live("click", function() {
             var field = $(this).attr("name");
             var cur = "none";
-            var url = "index.php?option=com_cck&task=box.add&tmpl=component&file=administrator/components/com_cck/views/field/tmpl/selection.php&title=dev&name="+field+"&type=json_options_"+field+"&id="+cur;
+            var url = "index.php?option=com_cck&task=box.add&tmpl=component&file=components/com_cck/views/field/tmpl/selection.php&title=dev&name="+field+"&type=json_options_"+field+"&id="+cur;
             $.fn.colorbox({href:url, iframe:true, innerWidth:300, innerHeight:200, scrolling:false, overlayClose:false, fixed:true, onLoad: function(){ $('#cboxClose').remove();}});
         });
     });

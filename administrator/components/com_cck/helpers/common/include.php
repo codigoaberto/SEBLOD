@@ -49,13 +49,13 @@ class CommonHelper_Include
 		$doc->addStyleDeclaration( 'div.pagetitle {display: block!important;}' );
 		if ( $component ) {
 			$doc->addStyleDeclaration( 'div.seblod {margin: 0px 10px 10px 10px!important;} div.seblod.first {margin-top: 10px!important;}' );
-			JHtml::_( 'stylesheet', 'administrator/components/'.CCK_COM.'/assets/css/admin.css', array(), false );
-			JHtml::_( 'stylesheet', 'administrator/components/'.CCK_COM.'/assets/css/font.css', array(), false );
+			JHtml::_( 'stylesheet', 'components/'.CCK_COM.'/assets/css/admin.css', array(), false );
+			JHtml::_( 'stylesheet', 'components/'.CCK_COM.'/assets/css/font.css', array(), false );
 		}
-		JHtml::_( 'stylesheet', 'administrator/components/'.CCK_COM.'/assets/css/icons.css', array(), false );
-		JHtml::_( 'stylesheet', 'administrator/components/'.CCK_COM.'/assets/css/ui.css', array(), false );
+		JHtml::_( 'stylesheet', 'components/'.CCK_COM.'/assets/css/icons.css', array(), false );
+		JHtml::_( 'stylesheet', 'components/'.CCK_COM.'/assets/css/ui.css', array(), false );
 		
-		JHtml::_( 'stylesheet', 'administrator/components/'.CCK_COM.'/assets/styles/seblod/ui.css', array(), false );
+		JHtml::_( 'stylesheet', 'components/'.CCK_COM.'/assets/styles/seblod/ui.css', array(), false );
 		
 		if ( count( $paths ) ) {
 			foreach ( $paths as $path ) {

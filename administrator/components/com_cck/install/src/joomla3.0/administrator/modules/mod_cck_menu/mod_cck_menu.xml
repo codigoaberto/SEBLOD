@@ -113,7 +113,7 @@
 				</field>
 				<field name="free01_title" type="text" default="Title 01" label="MOD_CCK_MENU_TITLE" description="MOD_CCK_MENU_TITLE_DESC" class="inputbox" />
 				<field name="free01_url" type="text" default="index.php" label="MOD_CCK_MENU_LINK" description="MOD_CCK_MENU_LINK_DESC" class="inputbox" size="32" />
-				<field name="free01_icon" type="imagelist" default="" label="MOD_CCK_MENU_ICON" description="MOD_CCK_MENU_ICON_DESC" directory="administrator/templates/bluestork/images/menu/" exclude="icon-16-component.png" stripext="" hide_none="true" class="inputbox" />
+				<field name="free01_icon" type="imagelist" default="" label="MOD_CCK_MENU_ICON" description="MOD_CCK_MENU_ICON_DESC" directory="templates/bluestork/images/menu/" exclude="icon-16-component.png" stripext="" hide_none="true" class="inputbox" />
 				<field name="" type="spacer" hr="false" />
 				<field name="" type="spacer" hr="true" />
 				<field name="" type="spacer" hr="false" />

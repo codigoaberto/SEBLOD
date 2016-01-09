@@ -52,8 +52,8 @@ class Helper_Include extends CommonHelper_Include
 				if ( $script === true ) {
 					JCck::loadjQuery( true, true, array( 'cck.dev-3.6.0.min.js', 'jquery.biscuit.min.js' ) );
 					JCck::loadjQueryUI();
-					$doc->addStyleSheet( JROOT_CCK.'/administrator/components/com_'.CCK_NAME.'/assets/css/ui-construction.css' );
-					$doc->addStyleSheet( JROOT_CCK.'/administrator/components/com_'.CCK_NAME.'/assets/styles/seblod/ui-construction.css' );
+					$doc->addStyleSheet( 'components/com_'.CCK_NAME.'/assets/css/ui-construction.css' );
+					$doc->addStyleSheet( 'components/com_'.CCK_NAME.'/assets/styles/seblod/ui-construction.css' );
 				}
 				Helper_Include::addColorbox_Live( '930', '550', $script, 'cbox', ', onLoad: function(){ $("#cboxClose").remove();}' );
 				Helper_Include::addColorpicker( $script );

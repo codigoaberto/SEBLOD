@@ -83,7 +83,7 @@ Helper_Include::addDependencies( $this->getName(), $this->getLayout() );
 		$canEditOwn		=	'';
 		
 		$link 			=	JRoute::_( 'index.php?option='.$this->option.'&task='.$this->vName.'.edit&id='. $item->id );
-		$link2			=	JRoute::_( 'index.php?option=com_cck&task=box.add&tmpl=component&file=administrator/components/com_cck/views/field/tmpl/preview.php&name='.$item->name );
+		$link2			=	JRoute::_( 'index.php?option=com_cck&task=box.add&tmpl=component&file=components/com_cck/views/field/tmpl/preview.php&name='.$item->name );
 		$linkFilter		=	JRoute::_( 'index.php?option='.$this->option.'&view='.$this->getName().'&folder_id='.$item->folder );
 		$linkFolder		=	JRoute::_( 'index.php?option='.$this->option.'&task=folder.edit&id='. $item->folder );
 		

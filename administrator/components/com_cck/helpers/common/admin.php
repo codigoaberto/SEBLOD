@@ -48,7 +48,7 @@ class CommonHelper_Admin
             <div class="<?php echo $class2; ?>">
                 <div class="<?php echo $class; ?>">
                     <a href="<?php echo $link; ?>" target="<?php echo $target; ?>">
-                        <?php echo JHtml::_( 'image', 'administrator/components/'.$base.'/assets/images/'.$size.'/icon-'.$size.'-'.$image.'.png', htmlspecialchars( str_replace( '<br />', ' ', $text ) ) ); ?>
+                        <?php echo JHtml::_( 'image', 'components/'.$base.'/assets/images/'.$size.'/icon-'.$size.'-'.$image.'.png', htmlspecialchars( str_replace( '<br />', ' ', $text ) ) ); ?>
                         <span><?php echo $text; ?></span>
 					</a>
                 </div>

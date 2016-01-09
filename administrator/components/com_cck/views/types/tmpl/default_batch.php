@@ -70,7 +70,7 @@ if ( JCck::on() ) { ?>
                 <?php
                 if ( count( $items ) ) {
                     foreach ( $items as $item ) {
-                        $image  =   ( $item->icon ) ? $item->icon : 'administrator/components/com_cck/assets/images/48/icon-48-form.png';
+                        $image  =   ( $item->icon ) ? $item->icon : 'components/com_cck/assets/images/48/icon-48-form.png';
                         $text   =   $item->title;
                     ?>
                     <div class="wrapper-icon span3">
